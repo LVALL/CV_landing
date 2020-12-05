@@ -14,9 +14,7 @@ a {
 }
 
 .cv {
-  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.55);
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.55);
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   border-radius: 10px;
   color: #fff;
@@ -34,18 +32,11 @@ a {
 }
 
 .info {
-  -webkit-box-flex: 1;
-  -ms-flex-positive: 1;
   flex-grow: 1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -67,17 +58,11 @@ a {
 }
 
 .photo-wrapper {
-  -webkit-box-flex: 1;
-  -ms-flex-positive: 1;
   flex-grow: 1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
   justify-content: flex-end;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -85,7 +70,6 @@ a {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  -o-object-fit: cover;
   object-fit: cover;
 }
 
@@ -108,7 +92,6 @@ a {
 
 .certificates-link {
   color: #353535;
-  -webkit-transition: .3s;
   transition: .3s;
 }
 
